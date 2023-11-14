@@ -81,7 +81,7 @@ class ChunkedUploader extends EventTarget {
 
     start () : Promise<object> {
 
-
+        this._stream?.pipeTo()
         this._promise = new Promise((resolve, reject) => {
             this._resolve = resolve
             this._reject  = reject 
