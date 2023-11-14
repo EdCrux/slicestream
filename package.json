@@ -1,0 +1,16 @@
+{
+  "name": "slicestream",
+  "version": "1.0.0",
+  "description": "Lib to send files by chunks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "typescript": "^5.2.2"
+  }
+}

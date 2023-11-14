@@ -1,2 +1,3 @@
 # slicestream
-Lib to send files by chunks.
+
+Slices Files and send to the backend.
